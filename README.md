@@ -7,6 +7,8 @@
 
 先运行`qqbot.sh`以下载其余脚本
 
+`proxychains sh -c "$(proxychains curl -fsSL https://github.com/DataEraserC/zbpscript/raw/main/qqbot.sh)"`
+
 再运行`update.sh`以更新/安装zbp+gocq
 
 最后运行`zbp.sh`和`gocq.sh`以实现进程守护
